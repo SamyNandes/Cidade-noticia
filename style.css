@@ -1,7 +1,7 @@
 *{
 	padding: 0px;
 	margin: 0px;
-	font-family: Trebuchet MS ;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	text-decoration: none;
 	list-style: none;
 }
@@ -43,7 +43,6 @@ body{
 	margin: 0px auto;
 	width: 750px;
 	font-size: 1em;
-	border: red solid 1px;
 }
 
 .caixa div a{
@@ -71,6 +70,9 @@ body{
 .caixa p{
 	font-size: 0.8em;
 }
+.color{
+	background-color: white;
+}
 .caixa{
 	margin-top: 5px;
 	padding: 5px;
@@ -80,22 +82,17 @@ body{
 	padding: 5px;
 	background-color: white;
 }
-.barra-lateral{
-	background-color: red;
-	float: left;
-	width: 21%
+.barra-fim a:visited, a:link{
+	color: black;
+	font-size: 0.9em;
 }
-.barra-centro{
-	margin-left:30px ;
-	width: 35%;
-	background-color: green;
-	float: left;
-}
-
 .barra-fim{
 	width: 35%;
-	background-color: blue;
 	float: right;
+}
+.barra-lateral{
+	float: left;
+	width: 21%
 }
 .barra-lateral a:visited, a:link{
 	color: black;
@@ -104,5 +101,46 @@ body{
 	padding-left: 20px;
 	color: black;
 	background: url(imagens/marcador.png) no-repeat center left;
+}
+.barra-centro ul li{
+	border-bottom: solid 0.1px black ;
+}
+.barra-centro{
+	margin-left: 16px ;
+	width: 35%;
+	float: left;
+}
+.barra-centro a:visited, a:link{
+	color: black;
+	font-size: 0.9em;
+}
+.barra-centro h2 {
+	color: #3e7ab9;
+	font-size: 0.8em;
+}
+.barra-centro div img{
+	margin-right: 10px;
+	width: 30%;
+	float: left;
+}
+.direita{
+	float: right;
+}
+#formulario{
+	margin-top: -110px;
+	width: 21%;
+	float: left;
+}
+.padding{
+	padding: 5px;
+}
+#formulario form input{
+	width: 70%;
+}
+#submit{
+	width: 60px !important;
+	font-size: 0.8em;
+	color: #fff	;
+ 	background-color: #b10333;
 }
 /*Fim conteudo*/
